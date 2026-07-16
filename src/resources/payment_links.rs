@@ -15,7 +15,7 @@ pub struct PaymentLinkListParams {
     pub list: ListParams,
     /// Filter by link status.
     pub status: Option<String>,
-    /// Filter by link type (`single` / `multi`).
+    /// Filter by link type (`single` / `reusable`).
     pub link_type: Option<String>,
 }
 
